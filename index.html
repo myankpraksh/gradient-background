@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Gradient Background Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="assets/favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text">CSS Gradient Background Generator</h1>
+        <button id="gradientString" class="text"></button>
+        <div id="input">
+            <div id="colorOneInput">
+                <input type="color" value="#00d9ff"><br>
+                <p class="smallText">First Color</p>
+            </div>
+            <div id="colorTwoInput">
+                <input type="color" value="#ff00ff"><br>
+                <p class="smallText">Second Color</p>
+            </div>
+            <div id="colorThreeInput">
+                <input type="color" value="#ff00ff"><br>
+                <p class="smallText">Third Color</p>
+            </div>
+            <div id="angleInput">
+                <input type="range" min="0" max="360" value="45"><br>
+                <p class="smallText">Gradient Angle</p>
+            </div>
+
+        </div>
+        <div id="otherButtons">
+            <button class="smallText option">Add a third color!</button>
+            <button class="smallText option">Generate!</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
