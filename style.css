@@ -10,7 +10,6 @@ html {
 }
 body {
   background: linear-gradient(var(--angle), var(--color1), var(--color2));
-  max-height: 100%;
 }
 h1 {
   font-size: 4rem;
@@ -91,6 +90,9 @@ input {
 }
 
 @media (max-width: 500px) {
+  html {
+    height: auto;
+  }
   .container {
     width: 90%;
   }
@@ -108,5 +110,8 @@ input {
   .option {
     margin-top: 10px;
     max-width: 60%;
+  }
+  #otherButtons {
+    margin-bottom: 2rem;
   }
 }
