@@ -91,6 +91,7 @@ input {
 
 @media (max-width: 500px) {
   html {
+    min-height: 100%;
     height: auto;
   }
   .container {
